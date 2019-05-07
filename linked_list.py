@@ -13,7 +13,7 @@ class LinkedList:
             # how do we even check if our linked list is empty ?
             if not self.head and not self.tail:
                 # if our list is empty, then the node that we add to
-                # the list needs to be set as both the head and the tail
+                # the list needs to be set as bo`th the head and the tail
                 self.head = new_node
                 self.tail = new_node
             # 2. what if our linked list is not empty
